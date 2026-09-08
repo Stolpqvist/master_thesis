@@ -8,7 +8,7 @@
 
 This repository contains the official code for our Master's Thesis project conducted in collaboration with **Vetenskapsrådet (The Swedish Research Council - SRC)**. The system automatically classifies research grant proposals using deep learning models and evaluates model performance with rigorous statistical significance testing.
 
----
+
 
 ## Authors & Task Ownership
 
@@ -21,7 +21,7 @@ This project was a collaborative research effort. System architecture, data spli
 * **[Robin](https://github.com/Stolpqvist)** ([@Stolpqvist](https://github.com/Stolpqvist)):
   * **Convolutional Neural Network (CNN)**: Designed, implemented, and tuned the 4-parallel layer CNN model (`model/cnn.py`).
   * **Joint Development**: Built text preprocessing, tokenization, and sequence formatting for neural models. Co-developed the RoBERTa transformer pipeline, data preprocessing workflows, statistical significance testing framework, and experiment orchestration code..
----
+
 
 
 ## Methodology
