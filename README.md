@@ -1,11 +1,28 @@
-# master_thesis
-Master's thesis at Vetenskapsrådet
+# Master's Thesis
 
+# Neural network approaches to research grant proposal classification. A comparative study of RNN, CNN, and RoBERTa with environmental impact analysis
 
-This thesis has been done in collaboration with Vetenskapsrådet (The Swedish Research Council (SRC)).
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/)
 
+This repository contains the official code for our Master's Thesis project conducted in collaboration with **Vetenskapsrådet (The Swedish Research Council - SRC)**. The system automatically classifies research grant proposals using deep learning models and evaluates model performance with rigorous statistical significance testing.
 
-The code herein trains either a CNN, RNN, or a RoBERTa model to automatically classify research grant proposals.
+---
+
+## Authors & Task Ownership
+
+This project was a collaborative research effort. System architecture, data splitting, statistical evaluation, and experiment pipelines were designed jointly, while core model implementations were divided as follows:
+
+* **[Adele](https://github.com/madame-croissant)** ([@madame-croissant](https://github.com/madame-croissant)):
+  * **Recurrent Neural Network (RNN)**: Designed, implemented, and tuned the attention-based LSTM model (`model/rnn.py`).
+  * **Joint Development**: Built text preprocessing, tokenization, and sequence formatting for neural models. Co-developed the RoBERTa transformer pipeline, data preprocessing workflows, statistical significance testing framework, and experiment orchestration code.
+
+* **[Robin](https://github.com/Stolpqvist)** ([@Stolpqvist](https://github.com/Stolpqvist)):
+  * **Convolutional Neural Network (CNN)**: Designed, implemented, and tuned the 4-parallel layer CNN model (`model/cnn.py`).
+  * **Joint Development**: Built text preprocessing, tokenization, and sequence formatting for neural models. Co-developed the RoBERTa transformer pipeline, data preprocessing workflows, statistical significance testing framework, and experiment orchestration code..
+---
+
 
 ## Methodology
 
