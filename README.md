@@ -7,7 +7,7 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/)
 
 
-> 📄 **Read the full published Master's Thesis:** Read the full published paper on [DiVA Portal / University Archive](https://www.diva-portal.org/smash/get/diva2:2069516/FULLTEXT01.pdf).
+> 📄 **Read the full published Master's Thesis:** [DiVA Portal / University Archive](https://www.diva-portal.org/smash/get/diva2:2069516/FULLTEXT01.pdf).
 
 This repository contains the official code for our Master's Thesis project conducted in collaboration with **Vetenskapsrådet (The Swedish Research Council - SRC)**. The system automatically classifies research grant proposals using deep learning models and evaluates model performance with rigorous statistical significance testing.
 
